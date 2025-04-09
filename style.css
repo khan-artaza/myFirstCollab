@@ -44,3 +44,33 @@ h4{
 span{
     opacity: 0.5;
 }
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.first h3{
+font-size: 65px;
+font-weight: 600;
+letter-spacing: -1px;
+}
+.first p{
+font-size: 18px;
+font-weight: 400;
+letter-spacing: -1px;
+opacity: 0.5;
+}
+
+.first button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+main{
+    padding: 0 60px;
+}
